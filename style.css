@@ -1,0 +1,341 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  height: 85px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+
+}
+
+ul{
+  margin-right: 24px;
+}
+
+ul,li{
+    display: inline;
+    margin-right: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul, li, a{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: black 0.2em 0.2em 0.3em;
+  font-size: 50px;
+  line-height: 0em;
+}
+h3{
+  font-size: 29px;
+  line-height: 0.2em;
+
+}
+#Homepage{
+
+  height: 630px;
+  width:100%;
+  background-image: url('image/Homepage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.conference{
+  margin-top: 125px;
+  margin-left: 50px;
+  color: white;
+  line-height: 1em;
+}
+
+.tiret{
+  height: 1px;
+  width: 13px;
+  background-color: rgba(255,255,255,0);
+}
+
+.button{
+  border: 1px solid white;
+  width: 165px;
+  padding: 20px 37px;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 105px;
+  text-transform: uppercase;
+}
+
+.button:hover{
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  width: 165px;
+  padding: 20px 37px;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 105px;
+}
+.icones img{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+
+}
+.conference .tiret{
+  line-height: 1em;
+}
+
+.Speaker{
+  height: 150px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  border: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.speak{
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.lorem{
+  margin-top: 0.3em;
+  width: 250px;
+  font-size: 0.6em;
+  text-align: center;
+
+
+}
+
+#Speakers{
+  height: auto;
+  width: 100%;
+
+}
+.peter{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.image_peter, .text_peter{
+  width: 50%;
+  height:300px;
+
+}
+.image_peter img{
+  height: 300px;
+  width: 100%;
+}
+.text_peter{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  background-color: #cbf2f1;
+}
+.image_text img{
+  height: 300px;
+  width: 100%;
+}
+.image_text{
+  width: 25%;
+  height:300px;
+
+}
+.image_text p{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+.image_text h6{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+.Agenda{
+
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.Agenda .coteacote .box p{
+border: 1px solid black;
+height: 50px;
+
+}
+.Agenda .coteacote .heure {
+margin-right: 5px;
+}
+
+.Agenda .coteacote{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+.Agenda .coteacote .heure{
+
+  display : flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+.Agenda .coteacote .abaissement{
+  padding-top: 17px;
+  padding-bottom: 57px;
+}
+.Agenda .coteacote .abaissemeent{
+  padding-bottom: 57px;
+}
+.Agenda .coteacote .abaissemeent1{
+  padding-bottom: 107px;
+}
+.Agenda .coteacote .abaissemeent2{
+  margin-top: -35px;
+}
+.Agenda .box, .heure{
+height: auto;
+width: 300px;
+}
+.Agenda .barre{
+  height: 24px;
+  width: 1px;
+  background-color: black;
+}
+.Agenda .carreNoir{
+  background-color: black;
+  height: 12px;
+  width: 12px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+.boxing1{
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxing2{
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxing3{
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxing4{
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxing5{
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxing6{
+  height: auto;
+  width: 420px;
+  text-align: left;
+  background-color: black;
+  color: white;
+
+  padding: 15px;
+
+}
+.boxing7{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxing8{
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+                        /*Auditorium*/
+#auditorium{
+  background-image: url('image/auditorium.jpg');
+  height:850px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#auditorium .information{
+  height: 350px;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#auditorium .information h5{
+  text-transform: uppercase;
+}
+#sponsors{
+  height: 350px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  border: 1px solid black;
+}
