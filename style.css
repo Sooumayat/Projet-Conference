@@ -100,7 +100,7 @@ h3{
 }
 
 .Speaker{
-  height: 150px;
+  height: auto;
   width: 100%;
 
   display: flex;
@@ -109,16 +109,17 @@ h3{
   align-items: center;
 
 
-  border: 1px solid black;
-  padding-bottom: 10px;
+
+  padding: 40px;
 }
 
 .speak{
-
+  margin-top: 0px;
   text-transform: uppercase;
   font-weight: bold;
 }
 .lorem{
+  line-height: 10px;
   margin-top: 0.3em;
   width: 250px;
   font-size: 0.6em;
@@ -164,6 +165,14 @@ h3{
   height:300px;
 
 }
+.image_texte{
+  width: 25%;
+  height:300px;
+  background-color: #cbf2f1;
+
+  text-align: center;
+
+}
 .image_text p{
   display: flex;
   flex-direction: column;
@@ -178,14 +187,24 @@ h3{
   align-items: center;
   text-align: center;
 }
-.Agenda{
 
+.Agenda{
 height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
+padding-bottom: 105px;
+padding-top: 105px;
+}
+
+.Agenda h5{
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.Agenda .milano{
+  text-transform: uppercase;
 }
 
 .Agenda .coteacote .box p{
@@ -331,11 +350,67 @@ width: 300px;
   text-transform: uppercase;
 }
 #sponsors{
-  height: 350px;
+  height: 250px;
   width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:center;
+}
+#sponsors .become_sponsors{
   border: 1px solid black;
+  height: 20px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+}
+
+#sponsors .become_sponsors:hover{
+  background-color: black;
+  color: white;
+}
+#sponsors h5{
+  line-height: 0px;
+  margin-top: 11px;
+  text-transform: uppercase;
+}
+
+footer{
+  height: 300px;
+  width: auto;
+  background-color: #cbf2f1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+
+}
+
+footer h2{
+  text-transform: uppercase;
+}
+
+footer ul{
+  color: black;
+  margin-top: -14px;
+
+}
+
+
+footer .become_sponsors{
+  border: 1px solid black;
+  height: 20px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+}
+
+footer .become_sponsors:hover{
+  background-color: black;
+  color:#cbf2f1;
+}
+.block a{
+
+  color: black;
+  font-size: 0.9em;
 }
